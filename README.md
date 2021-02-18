@@ -35,6 +35,8 @@ In this problem we do not have to predict actual price but a price range indicat
 
 # EDA :
 [!image]()
+
+
 [!image]()
 
 
@@ -45,7 +47,7 @@ In this problem we do not have to predict actual price but a price range indicat
 # Applyed Models :
 
 - [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
--[ Decision Tree Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
+- [Decision Tree Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
 -  [KNeighbors Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
 -  [StackingClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingClassifier.html)
 
