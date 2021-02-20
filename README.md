@@ -1,7 +1,6 @@
 # [mobile-price-classification](https://www.kaggle.com/iabhishekofficial/mobile-price-classification):
 
-In this project, we obtain stretch to explore and analyze a dataset that hold specifications of 2000 mobile phones as well as attempt to predict best price ranges for a list of mobile phones in the market by applying various machine learning algorithms like logistic regression, decision tree,   k-nearest neighbors and Stacking Classifier
-
+In this project, we obtain  to explore and analyze a dataset that hold specifications of 2000 mobile phones as well as attempt to predict best price ranges for a list of mobile phones in the market by applying various machine learning algorithm.
 
 # Data  description :
 
