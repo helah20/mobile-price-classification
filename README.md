@@ -27,7 +27,7 @@ In this project, we obtain  to explore and analyze a dataset that hold specifica
 
 
 # EDA :
-[!image](لقطة الشاشة 2021-02-18 205530.png)
+[!images](لقطة الشاشة 2021-02-18 205530.png)
 
 
 [!image]()
