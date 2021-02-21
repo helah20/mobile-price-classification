@@ -27,7 +27,7 @@ In this project, we obtain  to explore and analyze a dataset that hold specifica
 
 
 # EDA :
-![heatmap](لقطة الشاشة 2021-02-18 205530.png)
+![image](لقطة الشاشة 2021-02-18 205530.png)
 
 
 ![image]()
