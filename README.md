@@ -44,6 +44,22 @@ In this project, we obtain  to explore and analyze a dataset that hold specifica
 -  [StackingClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingClassifier.html)
 
 
+# compare Model score 
+
+
+![image](https://github.com/helah20/mobile-price-classification/blob/main/images/Model_comparsion.png)
+
+
+#### Note :
+* Random forest model (rf)
+* K nearest neighbor model (knn)
+* Decision tree model (dt)
+* Stacking model (staked)
+* Stacking model after optimizing (grid)
+* 
+
+
+
 
 
 
