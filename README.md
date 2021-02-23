@@ -25,17 +25,6 @@ In this project, we obtain  to explore and analyze a dataset that hold specifica
 * touch_screen:	Has touch screen or not	
 * wifi:	Has wifi or not	
 
-
-# EDA :
-![image](https://github.com/helah20/mobile-price-classification/blob/main/images/heatmap.png)
-
-![image](https://github.com/helah20/mobile-price-classification/blob/main/images/countplot.png)
-
-
-
-
-
-
 # Applyed Models :
 
 -  [RandomForestClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
@@ -44,7 +33,34 @@ In this project, we obtain  to explore and analyze a dataset that hold specifica
 -  [StackingClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingClassifier.html)
 
 
-# compare Model score 
+# The Process
+## 1.	Exploratory Data Analysis
+    -	find if there is duplicated and null value and clean it. 
+    -	visualize data and check if there is outlier. 
+
+#### the dataset is clear from null and duplicated values and the outlier  looking normal
+
+![image](https://github.com/helah20/mobile-price-classification/blob/main/images/heatmap.png)
+
+![image](https://github.com/helah20/mobile-price-classification/blob/main/images/countplot.png)
+
+
+
+## 2.	Split the data to X & y for train the models.
+## 3.	Defined Baseline model
+## 4.	defined classification model 
+    -	Random forest model (rf)
+    -	K nearest neighbor model (knn)
+    -	Decision tree model (dt)
+## 5.	evaluate model using RepeatedStratifiedKFold
+## 6.	validate models using cross validation. 
+## 7.	define stack model.
+## 8.	repeat 5 & 6 with stack model.
+## 9.	optimize the best model using grid search. 
+## 10.	split the data using train_test_split from scikitlearn  and apply the best model
+
+
+## compare Model score 
 
 
 ![image](https://github.com/helah20/mobile-price-classification/blob/main/images/Model_comparsion.png)
@@ -56,11 +72,6 @@ In this project, we obtain  to explore and analyze a dataset that hold specifica
 * Decision tree model (dt)
 * Stacking model (staked)
 * Stacking model after optimizing (grid)
-* 
-
-
-
-
 
 
 
