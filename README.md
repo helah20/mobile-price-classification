@@ -34,11 +34,11 @@ In this project, we obtain  to explore and analyze a dataset that hold specifica
 
 
 # The Process
-## 1.	Exploratory Data Analysis
+#### 1. Exploratory Data Analysis
     -	find if there is duplicated and null value and clean it. 
     -	visualize data and check if there is outlier. 
 
-#### the dataset is clear from null and duplicated values and the outlier  looking normal
+###### the dataset is clear from null and duplicated values and the outlier  looking normal
 
 ![image](https://github.com/helah20/mobile-price-classification/blob/main/images/heatmap.png)
 
@@ -46,18 +46,31 @@ In this project, we obtain  to explore and analyze a dataset that hold specifica
 
 
 
-## 2.	Split the data to X & y for train the models.
-## 3.	Defined Baseline model
-## 4.	defined classification model 
+#### 2. Split the data to X & y for train the models.
+        -   X fot all feature withot price_range
+        -   y for target (price_range)
+#### 3. Defined Baseline model
+    - to make sure the model that we will use is appropriate for the problem
+#### 4. defined classification model 
+    
     -	Random forest model (rf)
     -	K nearest neighbor model (knn)
     -	Decision tree model (dt)
-## 5.	evaluate model using RepeatedStratifiedKFold
-## 6.	validate models using cross validation. 
-## 7.	define stack model.
-## 8.	repeat 5 & 6 with stack model.
-## 9.	optimize the best model using grid search. 
-## 10.	split the data using train_test_split from scikitlearn  and apply the best model
+    
+#### 5. valuate model using cross validation. 
+    **Why do we need cross validation in machine learning?**
+Cross-validation is primarily used to estimate the skill of a machine learning model on unseen data.That is, to use a limited sample in order to estimate how the model is expected to perform in general when used to make predictions on data not used during the training of the model.
+
+#### 6. define stack model.
+
+<p> Stacking, also known as stacked generalization, is an ensemble method where the models are combined using another machine learning algorithm </p>
+
+#### 7. repeat 5 with stack model.
+
+#### 8. optimize the best model using grid search. 
+<p> Grid search is essentially an optimization algorithm which lets you select the best parameters for your optimization problem from a list of parameter options that you provide, hence automating the 'trial-and-error' method.</p>
+
+#### 10.	split the data using train_test_split from scikitlearn  and apply the best model
 
 
 ## compare Model score 
