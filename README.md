@@ -27,9 +27,9 @@ In this project, we obtain  to explore and analyze a dataset that hold specifica
 
 
 # EDA :
-![image](heatmap.png)
+![image](https://github.com/helah20/mobile-price-classification/blob/main/images/heatmap.png)
 
-![image]()
+![image](https://github.com/helah20/mobile-price-classification/blob/main/images/countplot.png)
 
 
 
