@@ -58,7 +58,7 @@ In this project, we obtain  to explore and analyze a dataset that hold specifica
     -	Decision tree model (dt)
     
 #### 5. valuate model using cross validation. 
-    **Why do we need cross validation in machine learning?**
+    *Why do we need cross validation in machine learning?*
 Cross-validation is primarily used to estimate the skill of a machine learning model on unseen data.That is, to use a limited sample in order to estimate how the model is expected to perform in general when used to make predictions on data not used during the training of the model.
 
 #### 6. define stack model.
