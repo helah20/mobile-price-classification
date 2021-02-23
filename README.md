@@ -33,10 +33,10 @@ In this project, we obtain  to explore and analyze a dataset that hold specifica
 -  [StackingClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingClassifier.html)
 
 
-# The Process
+# The Process of work :
 #### 1. Exploratory Data Analysis
-    -	find if there is duplicated and null value and clean it. 
-    -	visualize data and check if there is outlier. 
+-	find if there is duplicated and null value and clean it. 
+-	visualize data and check if there is outlier. 
 
 ###### the dataset is clear from null and duplicated values and the outlier  looking normal
 
@@ -47,18 +47,18 @@ In this project, we obtain  to explore and analyze a dataset that hold specifica
 
 
 #### 2. Split the data to X & y for train the models.
-        -   X fot all feature withot price_range
-        -   y for target (price_range)
+-   X fot all feature withot price_range
+-   y for target (price_range)
 #### 3. Defined Baseline model
-    - to make sure the model that we will use is appropriate for the problem
+- to make sure the model that we will use is appropriate for the problem
 #### 4. defined classification model 
-    
-    -	Random forest model (rf)
-    -	K nearest neighbor model (knn)
-    -	Decision tree model (dt)
+
+-	Random forest model (rf)
+-	K nearest neighbor model (knn)
+-	Decision tree model (dt)
     
 #### 5. valuate model using cross validation. 
-    *Why do we need cross validation in machine learning?*
+ **Why do we need cross validation in machine learning ?**
 Cross-validation is primarily used to estimate the skill of a machine learning model on unseen data.That is, to use a limited sample in order to estimate how the model is expected to perform in general when used to make predictions on data not used during the training of the model.
 
 #### 6. define stack model.
