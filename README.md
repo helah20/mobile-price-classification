@@ -92,11 +92,35 @@ Included in this github are a jupyter notebooks folder containing:
 ![image](https://github.com/helah20/mobile-price-classification/blob/main/images/dual%2C%20touch.png)
 
 <br><br>
+![image](https://github.com/helah20/mobile-price-classification/blob/main/images/price_range_0.png)
+<br><br>
+![image](https://github.com/helah20/mobile-price-classification/blob/main/images/price_range_1.png)
+<br><br>
+![image](https://github.com/helah20/mobile-price-classification/blob/main/images/price_range_2.png)
+
+<br><br>
+![image](https://github.com/helah20/mobile-price-classification/blob/main/images/price_range_3.png)
+
+
 #####	Observations:
+
+*	we obtain that we had the sam amount of praice range over the data 
+*	the data include old speicification 
+*	RAM has biggest effict on price 
+		*	In 0 (low cost) Ram values are changing between 0- 2000 megabytes
+		*	In 1 (medium cost) Ram values are changing between 0-3000 megabytes
+		*	In 2 (high cost) Ram values are changing between 1000-4000 mb
+		*	In 3 (very high cost) Ram values are changing between 2000 and 4000 mb( mostly 3500-4000 mb)
+
+
+
+
+
 
 #### 2. Split the data to X & y for train the models.
 -   X fot all feature withot price_range
 -   y for target (price_range)
+-   <br><br>
 #### 3. Defined Baseline model
 - to make sure the model that we will use is appropriate for the problem
 #### 4. defined classification model 
@@ -104,11 +128,11 @@ Included in this github are a jupyter notebooks folder containing:
 -	Random forest model (rf)
 -	K nearest neighbor model (knn)
 -	Decision tree model (dt)
-    
+    <br><br>
 #### 5. valuate model using cross validation. 
  **Why do we need cross validation in machine learning ?**
 Cross-validation is primarily used to estimate the skill of a machine learning model on unseen data.That is, to use a limited sample in order to estimate how the model is expected to perform in general when used to make predictions on data not used during the training of the model.
-
+<br><br>
 #### 6. define stack model.
 
 <p> Stacking, also known as stacked generalization, is an ensemble method where the models are combined using another machine learning algorithm </p>
