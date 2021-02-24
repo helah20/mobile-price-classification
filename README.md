@@ -65,55 +65,55 @@ Included in this github are a jupyter notebooks folder containing:
 ###### the dataset is clear from null and duplicated values and the outlier  looking normal
 
 
-######	**The first thing I did was take a look at the relationship between the feature **
+##	**The first thing I did was take a look at the relationship between the feature**
 ![image](https://github.com/helah20/mobile-price-classification/blob/main/images/heatmap.png)
 <br><br>
 
-######	**Here is the amount of each catogrical feature**
+##	**Here is the amount of each catogrical feature**
 
 ![image](https://github.com/helah20/mobile-price-classification/blob/main/images/countplot.png)
 
 <br><br>
-######	**Here we can see the amount of each catogrical feature with low cost 0**
+##	**Here we can see the amount of each catogrical feature with low cost 0**
 
 ![image](https://github.com/helah20/mobile-price-classification/blob/main/images/price_range_0.png)
 <br><br>
-######	**Here we can see the amount of each catogrical feature with medium cost 1**
+##	**Here we can see the amount of each catogrical feature with medium cost 1**
 
 ![image](https://github.com/helah20/mobile-price-classification/blob/main/images/price_range_1.png)
 
 
 <br><br>
-######	**Here we can see the amount of each catogrical feature with  high cost 2**
+##	**Here we can see the amount of each catogrical feature with  high cost 2**
 
 ![image](https://github.com/helah20/mobile-price-classification/blob/main/images/price_range_2.png)
 
 <br><br>
-######	**Here we can see the amount of each catogrical feature with very high cost 3**
+##	**Here we can see the amount of each catogrical feature with very high cost 3**
 
 ![image](https://github.com/helah20/mobile-price-classification/blob/main/images/price_range_3.png)
 
 
-######	**Here I use pie to know the amount of the phones that support  wifi , buetooth**
+##	**Here I use pie to know the amount of the phones that support  wifi , buetooth**
 
 ![image](https://github.com/helah20/mobile-price-classification/blob/main/images/wifi%2Cblue.png)
 
 <br><br>
 
-######	**Here I use pie to knowthe amount of the phones that support  3G , 4G**
+##	**Here I use pie to knowthe amount of the phones that support  3G , 4G**
 
 ![image](https://github.com/helah20/mobile-price-classification/blob/main/images/3G%2C4G.png)
 
 <br><br>
 
-######	**Here I use pie to know the amount of the phones that support  dual sim , tuoch screen**
+##	**Here I use pie to know the amount of the phones that support  dual sim , tuoch screen**
 
 ![image](https://github.com/helah20/mobile-price-classification/blob/main/images/dual%2C%20touch.png)
 
 <br><br>
 
 
-#####	Observations:
+####	Observations:
 
 *	we obtain that we had the sam amount of praice range over the data 
 *	the data include old speicification 
