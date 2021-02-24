@@ -146,12 +146,12 @@ Cross-validation is primarily used to estimate the skill of a machine learning m
 
 <p> Stacking, also known as stacked generalization, is an ensemble method where the models are combined using another machine learning algorithm </p>
 <br><br>
-#### 	7.valuate model using cross validation. 
+####		7.valuate model using cross validation. 
 <br><br>
-#### 	8. optimize the best model using grid search. 
+####		8. optimize the best model using grid search. 
 <p> Grid search is essentially an optimization algorithm which lets you select the best parameters for your optimization problem from a list of parameter options that you provide, hence automating the 'trial-and-error' method.</p>
 <br><br>
-####	 10.	split the data using train_test_split from scikitlearn  and apply the best model
+####		10.	split the data using train_test_split from scikitlearn  and apply the best model
 
 <br><br>
 ##	compare Model score 
@@ -160,7 +160,7 @@ Cross-validation is primarily used to estimate the skill of a machine learning m
 ![image](https://github.com/helah20/mobile-price-classification/blob/main/images/Model_comparsion.png)
 
 
-#### Note :
+#### 	Note :
 * Random forest model (rf)
 * K nearest neighbor model (knn)
 * Decision tree model (dt)
