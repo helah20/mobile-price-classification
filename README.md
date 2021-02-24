@@ -170,11 +170,11 @@ Cross-validation is primarily used to estimate the skill of a machine learning m
 * Stacking model (staked)
 * Stacking model after optimizing (grid)
 
-
+<br><br>
 #  References :
-[kaggle](https://www.kaggle.com/)
-[8-basic-techniques-that-make-your-data-better](https://www.altexsoft.com/blog/datascience/preparing-your-dataset-for-machine-learning-8-basic-techniques-that-make-your-data-better/)
-[scikit-learn.org](https://scikit-learn.org/stable/supervised_learning.html)
-[How to Train a Final Machine Learning Model](https://machinelearningmastery.com/train-final-machine-learning-model/)
-[final-machine-learning-model](https://machinelearningmastery.com/train-final-machine-learning-model/)
+* [kaggle](https://www.kaggle.com/)
+* [8-basic-techniques-that-make-your-data-better](https://www.altexsoft.com/blog/datascience/preparing-your-dataset-for-machine-learning-8-basic-techniques-that-make-your-data-better/)
+* [scikit-learn.org](https://scikit-learn.org/stable/supervised_learning.html)
+* [How to Train a Final Machine Learning Model](https://machinelearningmastery.com/train-final-machine-learning-model/)
+* [final-machine-learning-model](https://machinelearningmastery.com/train-final-machine-learning-model/)
 
