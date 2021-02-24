@@ -1,8 +1,10 @@
-# [mobile-price-classification](https://www.kaggle.com/iabhishekofficial/mobile-price-classification):
+#   [mobile-price-classification](https://www.kaggle.com/iabhishekofficial/mobile-price-classification)
 
-In this project, we obtain  to explore and analyze a dataset that hold specifications of 2000 mobile phones as well as attempt to predict best price ranges for a list of mobile phones in the market by applying various machine learning algorithm.
+##  Project Overview
 
-# Data  description :
+The goal of  this project is to develop classification model for dataset that hold specifications of 2000 mobile phones attempt to predict best price ranges by applying various machine learning algorithm.
+
+## Data  description :
 
 * battery_power:	Total energy a battery can store in mAh 
 * blue:	Has bluetooth or not	
@@ -23,7 +25,21 @@ In this project, we obtain  to explore and analyze a dataset that hold specifica
 * talk_time:	Longest time that battery will last by a call
 * three_g:	Has 3G or not	
 * touch_screen:	Has touch screen or not	
-* wifi:	Has wifi or not	
+* wifi:	Has wifi or not
+
+
+##  Notebooks:
+Included in this github are a jupyter notebooks folder containing:
+
+*   EDA_Mobile_Price_Classification.ipynb :
+       - A notebook where I performed significant EDA to explore the variables.
+
+*   Mobile_Price_Classification_ML.ipynb :
+       - I began with baseline models and continued through random forest, K nearest neighbor, Decision tree , and finally  Stacking models.
+
+
+
+	
 
 # Applyed Models :
 
