@@ -69,7 +69,7 @@ Included in this github are a jupyter notebooks folder containing:
 
 **Here I use pie to know the amount of the phones that support  dual sim , tuoch screen**
 
-![image](https://github.com/helah20/mobile-price-classification/blob/main/images/dual%2Ctouch.png)
+![image](images/dual, touch.png)
 
 
 #### 2. Split the data to X & y for train the models.
