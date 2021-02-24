@@ -36,9 +36,6 @@ Included in this github are a jupyter notebooks folder containing:
 
 *   Mobile_Price_Classification_ML.ipynb :
        - I began with baseline models and continued through random forest, K nearest neighbor, Decision tree , and finally  Stacking models.
-
-
-
 	
 
 # Applyed Models :
@@ -55,11 +52,24 @@ Included in this github are a jupyter notebooks folder containing:
 -	visualize data and check if there is outlier. 
 
 ###### the dataset is clear from null and duplicated values and the outlier  looking normal
-
+**The first thing I did was take a look at the relationship between the feature **
 ![image](https://github.com/helah20/mobile-price-classification/blob/main/images/heatmap.png)
+
+**Here is the amount of each catogrical feature**
 
 ![image](https://github.com/helah20/mobile-price-classification/blob/main/images/countplot.png)
 
+**Here I use pie to know the amount of the phones that support  wifi , buetooth**
+
+![image](https://github.com/helah20/mobile-price-classification/blob/main/images/wifi%2Cblue.png)
+
+**Here I use pie to knowthe amount of the phones that support  3G , 4G**
+
+![image](https://github.com/helah20/mobile-price-classification/blob/main/images/3G%2C4G.png)
+
+**Here I use pie to know the amount of the phones that support  dual sim , tuoch screen**
+
+![image](https://github.com/helah20/mobile-price-classification/blob/main/images/dual%2Ctouch.png)
 
 
 #### 2. Split the data to X & y for train the models.
