@@ -74,6 +74,25 @@ Included in this github are a jupyter notebooks folder containing:
 ![image](https://github.com/helah20/mobile-price-classification/blob/main/images/countplot.png)
 
 <br><br>
+######	**Here we can see the amount of each catogrical feature with low cost 0**
+
+![image](https://github.com/helah20/mobile-price-classification/blob/main/images/price_range_0.png)
+<br><br>
+######	**Here we can see the amount of each catogrical feature with medium cost 1**
+
+![image](https://github.com/helah20/mobile-price-classification/blob/main/images/price_range_1.png)
+
+
+<br><br>
+######	**Here we can see the amount of each catogrical feature with  high cost 2**
+
+![image](https://github.com/helah20/mobile-price-classification/blob/main/images/price_range_2.png)
+
+<br><br>
+######	**Here we can see the amount of each catogrical feature with very high cost 3**
+
+![image](https://github.com/helah20/mobile-price-classification/blob/main/images/price_range_3.png)
+
 
 ######	**Here I use pie to know the amount of the phones that support  wifi , buetooth**
 
@@ -92,14 +111,6 @@ Included in this github are a jupyter notebooks folder containing:
 ![image](https://github.com/helah20/mobile-price-classification/blob/main/images/dual%2C%20touch.png)
 
 <br><br>
-![image](https://github.com/helah20/mobile-price-classification/blob/main/images/price_range_0.png)
-<br><br>
-![image](https://github.com/helah20/mobile-price-classification/blob/main/images/price_range_1.png)
-<br><br>
-![image](https://github.com/helah20/mobile-price-classification/blob/main/images/price_range_2.png)
-
-<br><br>
-![image](https://github.com/helah20/mobile-price-classification/blob/main/images/price_range_3.png)
 
 
 #####	Observations:
@@ -112,17 +123,15 @@ Included in this github are a jupyter notebooks folder containing:
 		*	In 2 (high cost) Ram values are changing between 1000-4000 mb
 		*	In 3 (very high cost) Ram values are changing between 2000 and 4000 mb( mostly 3500-4000 mb)
 
-
-
-
-
+ <br><br>
 
 #### 2. Split the data to X & y for train the models.
 -   X fot all feature withot price_range
 -   y for target (price_range)
--   <br><br>
+  <br><br>
 #### 3. Defined Baseline model
 - to make sure the model that we will use is appropriate for the problem
+ <br><br>
 #### 4. defined classification model 
 
 -	Random forest model (rf)
@@ -136,15 +145,15 @@ Cross-validation is primarily used to estimate the skill of a machine learning m
 #### 6. define stack model.
 
 <p> Stacking, also known as stacked generalization, is an ensemble method where the models are combined using another machine learning algorithm </p>
-
-#### 7. repeat 5 with stack model.
-
+<br><br>
+#### 7.valuate model using cross validation. 
+<br><br>
 #### 8. optimize the best model using grid search. 
 <p> Grid search is essentially an optimization algorithm which lets you select the best parameters for your optimization problem from a list of parameter options that you provide, hence automating the 'trial-and-error' method.</p>
-
+<br><br>
 #### 10.	split the data using train_test_split from scikitlearn  and apply the best model
 
-
+<br><br>
 ## compare Model score 
 
 
@@ -157,6 +166,3 @@ Cross-validation is primarily used to estimate the skill of a machine learning m
 * Decision tree model (dt)
 * Stacking model (staked)
 * Stacking model after optimizing (grid)
-
-
-
